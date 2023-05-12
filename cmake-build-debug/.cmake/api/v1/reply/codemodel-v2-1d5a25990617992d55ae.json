@@ -1,0 +1,910 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						10,
+						11
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-9094db0daef6a5daf242.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1.0"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						38,
+						39,
+						46,
+						48,
+						49,
+						50,
+						51
+					]
+				},
+				{
+					"build" : "src/ext/openexr",
+					"childIndexes" : 
+					[
+						2,
+						8
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-src.ext.openexr-Debug-1b4dd6b745756fc3d809.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "src/ext/openexr",
+					"targetIndexes" : 
+					[
+						9
+					]
+				},
+				{
+					"build" : "src/ext/openexr/IlmBase",
+					"childIndexes" : 
+					[
+						3,
+						4,
+						5,
+						6,
+						7
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-src.ext.openexr.IlmBase-Debug-d573ed4006178a6e748c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 2,
+					"source" : "src/ext/openexr/IlmBase"
+				},
+				{
+					"build" : "src/ext/openexr/IlmBase/Half",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-src.ext.openexr.IlmBase.Half-Debug-83301728a7ca733223eb.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 2,
+					"source" : "src/ext/openexr/IlmBase/Half",
+					"targetIndexes" : 
+					[
+						19,
+						42,
+						58
+					]
+				},
+				{
+					"build" : "src/ext/openexr/IlmBase/Iex",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-src.ext.openexr.IlmBase.Iex-Debug-2bbc520977e1ad8de6d6.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 2,
+					"source" : "src/ext/openexr/IlmBase/Iex",
+					"targetIndexes" : 
+					[
+						20
+					]
+				},
+				{
+					"build" : "src/ext/openexr/IlmBase/IexMath",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-src.ext.openexr.IlmBase.IexMath-Debug-b8b2f793ee1f54822b03.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 2,
+					"source" : "src/ext/openexr/IlmBase/IexMath",
+					"targetIndexes" : 
+					[
+						21
+					]
+				},
+				{
+					"build" : "src/ext/openexr/IlmBase/Imath",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-src.ext.openexr.IlmBase.Imath-Debug-c6641a500dc64215e944.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 2,
+					"source" : "src/ext/openexr/IlmBase/Imath",
+					"targetIndexes" : 
+					[
+						25
+					]
+				},
+				{
+					"build" : "src/ext/openexr/IlmBase/IlmThread",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-src.ext.openexr.IlmBase.IlmThread-Debug-7177b5ea896313252dd9.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 2,
+					"source" : "src/ext/openexr/IlmBase/IlmThread",
+					"targetIndexes" : 
+					[
+						24
+					]
+				},
+				{
+					"build" : "src/ext/openexr/OpenEXR",
+					"childIndexes" : 
+					[
+						9
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-src.ext.openexr.OpenEXR-Debug-6b0bd7d2ae23513de3f0.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "src/ext/openexr/OpenEXR"
+				},
+				{
+					"build" : "src/ext/openexr/OpenEXR/IlmImf",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-src.ext.openexr.OpenEXR.IlmImf-Debug-79625b153012fe22e526.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8"
+					},
+					"parentIndex" : 8,
+					"projectIndex" : 1,
+					"source" : "src/ext/openexr/OpenEXR/IlmImf",
+					"targetIndexes" : 
+					[
+						22,
+						23,
+						37,
+						41
+					]
+				},
+				{
+					"build" : "src/ext/glog",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-src.ext.glog-Debug-4a825900610d238c3247.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 3,
+					"source" : "src/ext/glog",
+					"targetIndexes" : 
+					[
+						40,
+						44,
+						47,
+						54,
+						55,
+						56,
+						57,
+						59
+					]
+				},
+				{
+					"build" : "src/ext/ptex",
+					"childIndexes" : 
+					[
+						12,
+						13,
+						14,
+						15
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-src.ext.ptex-Debug-167b103000097da2452b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 4,
+					"source" : "src/ext/ptex",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						26,
+						27,
+						28,
+						29,
+						30,
+						31,
+						32,
+						33,
+						34,
+						35
+					]
+				},
+				{
+					"build" : "src/ext/ptex/src/ptex",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-src.ext.ptex.src.ptex-Debug-01134c2afaa3e635f346.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8"
+					},
+					"parentIndex" : 11,
+					"projectIndex" : 4,
+					"source" : "src/ext/ptex/src/ptex",
+					"targetIndexes" : 
+					[
+						36
+					]
+				},
+				{
+					"build" : "src/ext/ptex/src/utils",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-src.ext.ptex.src.utils-Debug-6b6f4a836fd9066d9996.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8"
+					},
+					"parentIndex" : 11,
+					"projectIndex" : 4,
+					"source" : "src/ext/ptex/src/utils",
+					"targetIndexes" : 
+					[
+						52
+					]
+				},
+				{
+					"build" : "src/ext/ptex/src/tests",
+					"jsonFile" : "directory-src.ext.ptex.src.tests-Debug-09a918470808376b8e65.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8"
+					},
+					"parentIndex" : 11,
+					"projectIndex" : 4,
+					"source" : "src/ext/ptex/src/tests",
+					"targetIndexes" : 
+					[
+						43,
+						45,
+						53,
+						60
+					]
+				},
+				{
+					"build" : "src/ext/ptex/src/doc",
+					"jsonFile" : "directory-src.ext.ptex.src.doc-Debug-57de55144437d855f67b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8"
+					},
+					"parentIndex" : 11,
+					"projectIndex" : 4,
+					"source" : "src/ext/ptex/src/doc"
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						3,
+						4
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "PBRT-V3",
+					"targetIndexes" : 
+					[
+						38,
+						39,
+						46,
+						48,
+						49,
+						50,
+						51
+					]
+				},
+				{
+					"childIndexes" : 
+					[
+						2
+					],
+					"directoryIndexes" : 
+					[
+						1,
+						8,
+						9
+					],
+					"name" : "openexr",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						9,
+						22,
+						23,
+						37,
+						41
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2,
+						3,
+						4,
+						5,
+						6,
+						7
+					],
+					"name" : "ilmbase",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						19,
+						20,
+						21,
+						24,
+						25,
+						42,
+						58
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						10
+					],
+					"name" : "google-glog",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						40,
+						44,
+						47,
+						54,
+						55,
+						56,
+						57,
+						59
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						11,
+						12,
+						13,
+						14,
+						15
+					],
+					"name" : "ptex",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						26,
+						27,
+						28,
+						29,
+						30,
+						31,
+						32,
+						33,
+						34,
+						35,
+						36,
+						43,
+						45,
+						52,
+						53,
+						60
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 11,
+					"id" : "Continuous::@80200f22bd5b9a2ef693",
+					"jsonFile" : "target-Continuous-Debug-692bf145efac4cc7bcd5.json",
+					"name" : "Continuous",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 11,
+					"id" : "ContinuousBuild::@80200f22bd5b9a2ef693",
+					"jsonFile" : "target-ContinuousBuild-Debug-d26633cbc014d60e5787.json",
+					"name" : "ContinuousBuild",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 11,
+					"id" : "ContinuousConfigure::@80200f22bd5b9a2ef693",
+					"jsonFile" : "target-ContinuousConfigure-Debug-1f65600e66bae827add4.json",
+					"name" : "ContinuousConfigure",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 11,
+					"id" : "ContinuousCoverage::@80200f22bd5b9a2ef693",
+					"jsonFile" : "target-ContinuousCoverage-Debug-3bf8abad4b34683324ea.json",
+					"name" : "ContinuousCoverage",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 11,
+					"id" : "ContinuousMemCheck::@80200f22bd5b9a2ef693",
+					"jsonFile" : "target-ContinuousMemCheck-Debug-bcd2cca4200105fbcc88.json",
+					"name" : "ContinuousMemCheck",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 11,
+					"id" : "ContinuousStart::@80200f22bd5b9a2ef693",
+					"jsonFile" : "target-ContinuousStart-Debug-6123fedbebabcf76a2c2.json",
+					"name" : "ContinuousStart",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 11,
+					"id" : "ContinuousSubmit::@80200f22bd5b9a2ef693",
+					"jsonFile" : "target-ContinuousSubmit-Debug-8901d2aabec447b2bf92.json",
+					"name" : "ContinuousSubmit",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 11,
+					"id" : "ContinuousTest::@80200f22bd5b9a2ef693",
+					"jsonFile" : "target-ContinuousTest-Debug-c94238ac1d14fc326f4b.json",
+					"name" : "ContinuousTest",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 11,
+					"id" : "ContinuousUpdate::@80200f22bd5b9a2ef693",
+					"jsonFile" : "target-ContinuousUpdate-Debug-b288a3d51002a84c8342.json",
+					"name" : "ContinuousUpdate",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "CopyIlmBaseLibs::@216873478ca39ce8b80d",
+					"jsonFile" : "target-CopyIlmBaseLibs-Debug-430a6219733c5d3b8864.json",
+					"name" : "CopyIlmBaseLibs",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 11,
+					"id" : "Experimental::@80200f22bd5b9a2ef693",
+					"jsonFile" : "target-Experimental-Debug-5154dfef814b7b152132.json",
+					"name" : "Experimental",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 11,
+					"id" : "ExperimentalBuild::@80200f22bd5b9a2ef693",
+					"jsonFile" : "target-ExperimentalBuild-Debug-8279df851ddb98dd17fb.json",
+					"name" : "ExperimentalBuild",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 11,
+					"id" : "ExperimentalConfigure::@80200f22bd5b9a2ef693",
+					"jsonFile" : "target-ExperimentalConfigure-Debug-2e9e899aaed76adcc4d6.json",
+					"name" : "ExperimentalConfigure",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 11,
+					"id" : "ExperimentalCoverage::@80200f22bd5b9a2ef693",
+					"jsonFile" : "target-ExperimentalCoverage-Debug-eebf37724e53155bbfa9.json",
+					"name" : "ExperimentalCoverage",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 11,
+					"id" : "ExperimentalMemCheck::@80200f22bd5b9a2ef693",
+					"jsonFile" : "target-ExperimentalMemCheck-Debug-3254f5ac15c50a76b753.json",
+					"name" : "ExperimentalMemCheck",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 11,
+					"id" : "ExperimentalStart::@80200f22bd5b9a2ef693",
+					"jsonFile" : "target-ExperimentalStart-Debug-b23ec2f40434d748f61f.json",
+					"name" : "ExperimentalStart",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 11,
+					"id" : "ExperimentalSubmit::@80200f22bd5b9a2ef693",
+					"jsonFile" : "target-ExperimentalSubmit-Debug-83816aca5db2fe140c7b.json",
+					"name" : "ExperimentalSubmit",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 11,
+					"id" : "ExperimentalTest::@80200f22bd5b9a2ef693",
+					"jsonFile" : "target-ExperimentalTest-Debug-d70345e7e93778d79e0f.json",
+					"name" : "ExperimentalTest",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 11,
+					"id" : "ExperimentalUpdate::@80200f22bd5b9a2ef693",
+					"jsonFile" : "target-ExperimentalUpdate-Debug-066b473cb4fbdf826cb1.json",
+					"name" : "ExperimentalUpdate",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "Half::@f1a5a8dbbb666411b166",
+					"jsonFile" : "target-Half-Debug-e5d09f90aa7747d76a11.json",
+					"name" : "Half",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "Iex::@0116349e0908dd0401d8",
+					"jsonFile" : "target-Iex-Debug-25381b80e37d2a0bc41d.json",
+					"name" : "Iex",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "IexMath::@2a86a1e583929aa6ebc6",
+					"jsonFile" : "target-IexMath-Debug-db55fabe6d42ab9e9c7d.json",
+					"name" : "IexMath",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "IlmImf::@dfce845c588ce6a45822",
+					"jsonFile" : "target-IlmImf-Debug-9afb15cf82e87786440b.json",
+					"name" : "IlmImf",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "IlmImf-obj::@dfce845c588ce6a45822",
+					"jsonFile" : "target-IlmImf-obj-Debug-4b8ca4c288049e661815.json",
+					"name" : "IlmImf-obj",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "IlmThread::@c9e64c6c3428d436a6ce",
+					"jsonFile" : "target-IlmThread-Debug-91dae5d14b278e8a2fde.json",
+					"name" : "IlmThread",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "Imath::@62dcb3202aa6ce1ea960",
+					"jsonFile" : "target-Imath-Debug-d1bf526b1cddb39a01a1.json",
+					"name" : "Imath",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 11,
+					"id" : "Nightly::@80200f22bd5b9a2ef693",
+					"jsonFile" : "target-Nightly-Debug-f1be5a681350baa83d7a.json",
+					"name" : "Nightly",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 11,
+					"id" : "NightlyBuild::@80200f22bd5b9a2ef693",
+					"jsonFile" : "target-NightlyBuild-Debug-8bb13d074b22287f2d0f.json",
+					"name" : "NightlyBuild",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 11,
+					"id" : "NightlyConfigure::@80200f22bd5b9a2ef693",
+					"jsonFile" : "target-NightlyConfigure-Debug-cc2236488f11d06a11b0.json",
+					"name" : "NightlyConfigure",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 11,
+					"id" : "NightlyCoverage::@80200f22bd5b9a2ef693",
+					"jsonFile" : "target-NightlyCoverage-Debug-33c1228b7c731dde45b9.json",
+					"name" : "NightlyCoverage",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 11,
+					"id" : "NightlyMemCheck::@80200f22bd5b9a2ef693",
+					"jsonFile" : "target-NightlyMemCheck-Debug-f72daf6491f3abc6752c.json",
+					"name" : "NightlyMemCheck",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 11,
+					"id" : "NightlyMemoryCheck::@80200f22bd5b9a2ef693",
+					"jsonFile" : "target-NightlyMemoryCheck-Debug-1578f655ff1a0c8eecea.json",
+					"name" : "NightlyMemoryCheck",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 11,
+					"id" : "NightlyStart::@80200f22bd5b9a2ef693",
+					"jsonFile" : "target-NightlyStart-Debug-1697e1fcad910ac42192.json",
+					"name" : "NightlyStart",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 11,
+					"id" : "NightlySubmit::@80200f22bd5b9a2ef693",
+					"jsonFile" : "target-NightlySubmit-Debug-a11cf4f0993e5e66c312.json",
+					"name" : "NightlySubmit",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 11,
+					"id" : "NightlyTest::@80200f22bd5b9a2ef693",
+					"jsonFile" : "target-NightlyTest-Debug-490976c932cd77649b6e.json",
+					"name" : "NightlyTest",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 11,
+					"id" : "NightlyUpdate::@80200f22bd5b9a2ef693",
+					"jsonFile" : "target-NightlyUpdate-Debug-36360d1c81b90acaf6c7.json",
+					"name" : "NightlyUpdate",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 12,
+					"id" : "Ptex_static::@a7b58488bffeb11cd167",
+					"jsonFile" : "target-Ptex_static-Debug-bdaf06d62d4f7db0fd44.json",
+					"name" : "Ptex_static",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "b44ExpLogTable::@dfce845c588ce6a45822",
+					"jsonFile" : "target-b44ExpLogTable-Debug-5bbbca3c5779f08b4aa0.json",
+					"name" : "b44ExpLogTable",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "bsdftest::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-bsdftest-Debug-d540ffea1f1e76bdbb80.json",
+					"name" : "bsdftest",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "cyhair2pbrt::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cyhair2pbrt-Debug-bd49fea2c6cbbbc99b7e.json",
+					"name" : "cyhair2pbrt",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "demangle_unittest::@d6e44c78f4c47f096089",
+					"jsonFile" : "target-demangle_unittest-Debug-aa5191b9ba2fe6c8e3fe.json",
+					"name" : "demangle_unittest",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "dwaLookups::@dfce845c588ce6a45822",
+					"jsonFile" : "target-dwaLookups-Debug-02e1b4ae75546c931dd1.json",
+					"name" : "dwaLookups",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "eLut::@f1a5a8dbbb666411b166",
+					"jsonFile" : "target-eLut-Debug-9bbad70f3396ba9d7d48.json",
+					"name" : "eLut",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 14,
+					"id" : "ftest::@65d61c7e81293e0e5953",
+					"jsonFile" : "target-ftest-Debug-b2ddffe080ac60867ac3.json",
+					"name" : "ftest",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "glog::@d6e44c78f4c47f096089",
+					"jsonFile" : "target-glog-Debug-a52b58369104742070f0.json",
+					"name" : "glog",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 14,
+					"id" : "halftest::@65d61c7e81293e0e5953",
+					"jsonFile" : "target-halftest-Debug-03f0d569a1166f2a4b0f.json",
+					"name" : "halftest",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "imgtool::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-imgtool-Debug-bd93f212d87a09c5b191.json",
+					"name" : "imgtool",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "logging_unittest::@d6e44c78f4c47f096089",
+					"jsonFile" : "target-logging_unittest-Debug-b251dc45bbaf67564904.json",
+					"name" : "logging_unittest",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "obj2pbrt::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-obj2pbrt-Debug-79b931768f9322f86492.json",
+					"name" : "obj2pbrt",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "pbrt::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-pbrt-Debug-291c0be745e9f0eb1200.json",
+					"name" : "pbrt",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "pbrt_exe::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-pbrt_exe-Debug-b3f3fffbed025737dace.json",
+					"name" : "pbrt_exe",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "pbrt_test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-pbrt_test-Debug-44e7af3b13e4c74b3dbb.json",
+					"name" : "pbrt_test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 13,
+					"id" : "ptxinfo::@4c1562ba81c839dfd133",
+					"jsonFile" : "target-ptxinfo-Debug-c4b4f3a9ad063da421f8.json",
+					"name" : "ptxinfo",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 14,
+					"id" : "rtest::@65d61c7e81293e0e5953",
+					"jsonFile" : "target-rtest-Debug-5cce55755d41192fc6e2.json",
+					"name" : "rtest",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "signalhandler_unittest::@d6e44c78f4c47f096089",
+					"jsonFile" : "target-signalhandler_unittest-Debug-1dfa31f232fc02272804.json",
+					"name" : "signalhandler_unittest",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "stacktrace_unittest::@d6e44c78f4c47f096089",
+					"jsonFile" : "target-stacktrace_unittest-Debug-16eb6f1873029cd43cb1.json",
+					"name" : "stacktrace_unittest",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "stl_logging_unittest::@d6e44c78f4c47f096089",
+					"jsonFile" : "target-stl_logging_unittest-Debug-b7a2263a2cfbbc8a0e9f.json",
+					"name" : "stl_logging_unittest",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "symbolize_unittest::@d6e44c78f4c47f096089",
+					"jsonFile" : "target-symbolize_unittest-Debug-0951b0129c3761e874ec.json",
+					"name" : "symbolize_unittest",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "toFloat::@f1a5a8dbbb666411b166",
+					"jsonFile" : "target-toFloat-Debug-c7189803ba44ac18a991.json",
+					"name" : "toFloat",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "utilities_unittest::@d6e44c78f4c47f096089",
+					"jsonFile" : "target-utilities_unittest-Debug-1afaec593c0e3d3f8882.json",
+					"name" : "utilities_unittest",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 14,
+					"id" : "wtest::@65d61c7e81293e0e5953",
+					"jsonFile" : "target-wtest-Debug-15c677e6db4c735bf107.json",
+					"name" : "wtest",
+					"projectIndex" : 4
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/mitty/Documents/GitHub/pbrt-v3-coursework/cmake-build-debug",
+		"source" : "/Users/mitty/Documents/GitHub/pbrt-v3-coursework"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}

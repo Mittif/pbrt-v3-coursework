@@ -99,6 +99,7 @@
 #include "shapes/sphere.h"
 #include "shapes/triangle.h"
 #include "shapes/plymesh.h"
+#include "shapes/displacementsphere.h"
 #include "textures/bilerp.h"
 #include "textures/checkerboard.h"
 #include "textures/constant.h"
@@ -527,6 +528,9 @@ std::vector<std::shared_ptr<Shape>> MakeShapes(const std::string &name,
     else if (name == "nurbs")
         shapes = CreateNURBS(object2world, world2object, reverseOrientation,
                              paramSet);
+    else if (name == "dsphere")
+        shapes = CreateDisplacementSphere(object2world, world2object, reverseOrientation,
+                                          paramSet, &*graphicsState.floatTextures);
     else
         Warning("Shape \"%s\" unknown.", name.c_str());
     return shapes;

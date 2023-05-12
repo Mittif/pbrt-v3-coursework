@@ -1,0 +1,454 @@
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+ld: library not found for -lSystem
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+ld: library not found for -lc++
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+
+
+Performing C++ SOURCE FILE Test HAVE_CONSTEXPR failed with the following output:
+Change Dir: /Users/mitty/Documents/GitHub/pbrt-v3-coursework/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_3eeae && [1/2] Building CXX object CMakeFiles/cmTC_3eeae.dir/src.cxx.o
+FAILED: CMakeFiles/cmTC_3eeae.dir/src.cxx.o 
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DHAVE_CONSTEXPR  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk -mmacosx-version-min=12.5 -fcolor-diagnostics -MD -MT CMakeFiles/cmTC_3eeae.dir/src.cxx.o -MF CMakeFiles/cmTC_3eeae.dir/src.cxx.o.d -o CMakeFiles/cmTC_3eeae.dir/src.cxx.o -c /Users/mitty/Documents/GitHub/pbrt-v3-coursework/cmake-build-debug/CMakeFiles/CMakeTmp/src.cxx
+/Users/mitty/Documents/GitHub/pbrt-v3-coursework/cmake-build-debug/CMakeFiles/CMakeTmp/src.cxx:1:14: error: unknown type name 'constexpr'
+int main() { constexpr int x = 0; }
+             ^
+1 error generated.
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+int main() { constexpr int x = 0; }
+Performing C++ SOURCE FILE Test HAVE_ALIGNAS failed with the following output:
+Change Dir: /Users/mitty/Documents/GitHub/pbrt-v3-coursework/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_850a9 && [1/2] Building CXX object CMakeFiles/cmTC_850a9.dir/src.cxx.o
+FAILED: CMakeFiles/cmTC_850a9.dir/src.cxx.o 
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DHAVE_ALIGNAS  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk -mmacosx-version-min=12.5 -fcolor-diagnostics -MD -MT CMakeFiles/cmTC_850a9.dir/src.cxx.o -MF CMakeFiles/cmTC_850a9.dir/src.cxx.o.d -o CMakeFiles/cmTC_850a9.dir/src.cxx.o -c /Users/mitty/Documents/GitHub/pbrt-v3-coursework/cmake-build-debug/CMakeFiles/CMakeTmp/src.cxx
+/Users/mitty/Documents/GitHub/pbrt-v3-coursework/cmake-build-debug/CMakeFiles/CMakeTmp/src.cxx:1:16: error: expected unqualified-id
+struct alignas(32) Foo { char x; }; int main() { }
+               ^
+/Users/mitty/Documents/GitHub/pbrt-v3-coursework/cmake-build-debug/CMakeFiles/CMakeTmp/src.cxx:1:16: error: expected ')'
+/Users/mitty/Documents/GitHub/pbrt-v3-coursework/cmake-build-debug/CMakeFiles/CMakeTmp/src.cxx:1:15: note: to match this '('
+struct alignas(32) Foo { char x; }; int main() { }
+              ^
+2 errors generated.
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+struct alignas(32) Foo { char x; }; int main() { }
+Performing C++ SOURCE FILE Test HAVE_ALIGNOF failed with the following output:
+Change Dir: /Users/mitty/Documents/GitHub/pbrt-v3-coursework/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_f7b58 && [1/2] Building CXX object CMakeFiles/cmTC_f7b58.dir/src.cxx.o
+FAILED: CMakeFiles/cmTC_f7b58.dir/src.cxx.o 
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DHAVE_ALIGNOF  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk -mmacosx-version-min=12.5 -fcolor-diagnostics -MD -MT CMakeFiles/cmTC_f7b58.dir/src.cxx.o -MF CMakeFiles/cmTC_f7b58.dir/src.cxx.o.d -o CMakeFiles/cmTC_f7b58.dir/src.cxx.o -c /Users/mitty/Documents/GitHub/pbrt-v3-coursework/cmake-build-debug/CMakeFiles/CMakeTmp/src.cxx
+/Users/mitty/Documents/GitHub/pbrt-v3-coursework/cmake-build-debug/CMakeFiles/CMakeTmp/src.cxx:1:36: error: expected '(' for function-style cast or type construction
+int main() { int x = alignof(double); }
+                             ~~~~~~^
+1 error generated.
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+int main() { int x = alignof(double); }
+Performing C++ SOURCE FILE Test HAVE_NONPOD_IN_UNIONS failed with the following output:
+Change Dir: /Users/mitty/Documents/GitHub/pbrt-v3-coursework/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_1899b && [1/2] Building CXX object CMakeFiles/cmTC_1899b.dir/src.cxx.o
+FAILED: CMakeFiles/cmTC_1899b.dir/src.cxx.o 
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DHAVE_NONPOD_IN_UNIONS  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk -mmacosx-version-min=12.5 -fcolor-diagnostics -MD -MT CMakeFiles/cmTC_1899b.dir/src.cxx.o -MF CMakeFiles/cmTC_1899b.dir/src.cxx.o.d -o CMakeFiles/cmTC_1899b.dir/src.cxx.o -c /Users/mitty/Documents/GitHub/pbrt-v3-coursework/cmake-build-debug/CMakeFiles/CMakeTmp/src.cxx
+/Users/mitty/Documents/GitHub/pbrt-v3-coursework/cmake-build-debug/CMakeFiles/CMakeTmp/src.cxx:3:37: error: union member 'b' has a non-trivial default constructor
+struct Foo { union { int x[10]; Bar b; }; Foo() : b() { } };
+                                    ^
+/Users/mitty/Documents/GitHub/pbrt-v3-coursework/cmake-build-debug/CMakeFiles/CMakeTmp/src.cxx:2:21: note: because type 'Bar' has a user-provided default constructor
+class Bar { public: Bar() { x = 0; } float x; };
+                    ^
+/Users/mitty/Documents/GitHub/pbrt-v3-coursework/cmake-build-debug/CMakeFiles/CMakeTmp/src.cxx:3:51: error: member initializer 'b' does not name a non-static data member or base class
+struct Foo { union { int x[10]; Bar b; }; Foo() : b() { } };
+                                                  ^~~
+2 errors generated.
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+
+class Bar { public: Bar() { x = 0; } float x; };
+struct Foo { union { int x[10]; Bar b; }; Foo() : b() { } };
+int main() { Foo f; }
+
+Performing C++ SOURCE FILE Test HAVE_DECLSPEC_NOINLINE failed with the following output:
+Change Dir: /Users/mitty/Documents/GitHub/pbrt-v3-coursework/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_88252 && [1/2] Building CXX object CMakeFiles/cmTC_88252.dir/src.cxx.o
+FAILED: CMakeFiles/cmTC_88252.dir/src.cxx.o 
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DHAVE_DECLSPEC_NOINLINE  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk -mmacosx-version-min=12.5 -fcolor-diagnostics -MD -MT CMakeFiles/cmTC_88252.dir/src.cxx.o -MF CMakeFiles/cmTC_88252.dir/src.cxx.o.d -o CMakeFiles/cmTC_88252.dir/src.cxx.o -c /Users/mitty/Documents/GitHub/pbrt-v3-coursework/cmake-build-debug/CMakeFiles/CMakeTmp/src.cxx
+/Users/mitty/Documents/GitHub/pbrt-v3-coursework/cmake-build-debug/CMakeFiles/CMakeTmp/src.cxx:1:1: error: '__declspec' attributes are not enabled; use '-fdeclspec' or '-fms-extensions' to enable support for __declspec attributes
+__declspec(noinline) void foo() { }
+^
+1 error generated.
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+__declspec(noinline) void foo() { }
+int main() { }
+Performing C++ SOURCE FILE Test HAVE__ALIGNED_MALLOC failed with the following output:
+Change Dir: /Users/mitty/Documents/GitHub/pbrt-v3-coursework/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_c67e5 && [1/2] Building CXX object CMakeFiles/cmTC_c67e5.dir/src.cxx.o
+FAILED: CMakeFiles/cmTC_c67e5.dir/src.cxx.o 
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DHAVE__ALIGNED_MALLOC  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk -mmacosx-version-min=12.5 -fcolor-diagnostics -MD -MT CMakeFiles/cmTC_c67e5.dir/src.cxx.o -MF CMakeFiles/cmTC_c67e5.dir/src.cxx.o.d -o CMakeFiles/cmTC_c67e5.dir/src.cxx.o -c /Users/mitty/Documents/GitHub/pbrt-v3-coursework/cmake-build-debug/CMakeFiles/CMakeTmp/src.cxx
+/Users/mitty/Documents/GitHub/pbrt-v3-coursework/cmake-build-debug/CMakeFiles/CMakeTmp/src.cxx:2:10: fatal error: 'malloc.h' file not found
+#include <malloc.h>
+         ^~~~~~~~~~
+1 error generated.
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+
+#include <malloc.h>
+int main() { void * ptr = _aligned_malloc(1024, 32); }
+
+Performing C++ SOURCE FILE Test HAVE_MEMALIGN failed with the following output:
+Change Dir: /Users/mitty/Documents/GitHub/pbrt-v3-coursework/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_96962 && [1/2] Building CXX object CMakeFiles/cmTC_96962.dir/src.cxx.o
+FAILED: CMakeFiles/cmTC_96962.dir/src.cxx.o 
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DHAVE_MEMALIGN  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk -mmacosx-version-min=12.5 -fcolor-diagnostics -MD -MT CMakeFiles/cmTC_96962.dir/src.cxx.o -MF CMakeFiles/cmTC_96962.dir/src.cxx.o.d -o CMakeFiles/cmTC_96962.dir/src.cxx.o -c /Users/mitty/Documents/GitHub/pbrt-v3-coursework/cmake-build-debug/CMakeFiles/CMakeTmp/src.cxx
+/Users/mitty/Documents/GitHub/pbrt-v3-coursework/cmake-build-debug/CMakeFiles/CMakeTmp/src.cxx:2:10: fatal error: 'malloc.h' file not found
+#include <malloc.h>
+         ^~~~~~~~~~
+1 error generated.
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+
+#include <malloc.h>
+int main() {
+    void *ptr = memalign(32, 1024);
+} 
+Performing C++ SOURCE FILE Test HAVE_THREAD_LOCAL failed with the following output:
+Change Dir: /Users/mitty/Documents/GitHub/pbrt-v3-coursework/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_c1008 && [1/2] Building CXX object CMakeFiles/cmTC_c1008.dir/src.cxx.o
+FAILED: CMakeFiles/cmTC_c1008.dir/src.cxx.o 
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DHAVE_THREAD_LOCAL  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk -mmacosx-version-min=12.5 -fcolor-diagnostics -MD -MT CMakeFiles/cmTC_c1008.dir/src.cxx.o -MF CMakeFiles/cmTC_c1008.dir/src.cxx.o.d -o CMakeFiles/cmTC_c1008.dir/src.cxx.o -c /Users/mitty/Documents/GitHub/pbrt-v3-coursework/cmake-build-debug/CMakeFiles/CMakeTmp/src.cxx
+/Users/mitty/Documents/GitHub/pbrt-v3-coursework/cmake-build-debug/CMakeFiles/CMakeTmp/src.cxx:6:1: error: unknown type name 'thread_local'
+thread_local int x; int main() { }
+^
+1 error generated.
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+
+#ifdef __CYGWIN__
+// Hack to work around https://gcc.gnu.org/bugzilla/show_bug.cgi?id=64697
+#error "No thread_local on cygwin"
+#endif  // __CYGWIN__
+thread_local int x; int main() { }
+
+Performing C++ SOURCE FILE Test HAVE_DECLSPEC_THREAD failed with the following output:
+Change Dir: /Users/mitty/Documents/GitHub/pbrt-v3-coursework/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_febe9 && [1/2] Building CXX object CMakeFiles/cmTC_febe9.dir/src.cxx.o
+FAILED: CMakeFiles/cmTC_febe9.dir/src.cxx.o 
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DHAVE_DECLSPEC_THREAD  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk -mmacosx-version-min=12.5 -fcolor-diagnostics -MD -MT CMakeFiles/cmTC_febe9.dir/src.cxx.o -MF CMakeFiles/cmTC_febe9.dir/src.cxx.o.d -o CMakeFiles/cmTC_febe9.dir/src.cxx.o -c /Users/mitty/Documents/GitHub/pbrt-v3-coursework/cmake-build-debug/CMakeFiles/CMakeTmp/src.cxx
+/Users/mitty/Documents/GitHub/pbrt-v3-coursework/cmake-build-debug/CMakeFiles/CMakeTmp/src.cxx:2:1: error: '__declspec' attributes are not enabled; use '-fdeclspec' or '-fms-extensions' to enable support for __declspec attributes
+__declspec(thread) int x; int main() { }
+^
+1 error generated.
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+
+__declspec(thread) int x; int main() { }
+
+Performing C++ SOURCE FILE Test HAVE_GCC_INLINE_ASM_AVX failed with the following output:
+Change Dir: /Users/mitty/Documents/GitHub/pbrt-v3-coursework/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_64b0c && [1/2] Building CXX object CMakeFiles/cmTC_64b0c.dir/src.cxx.o
+FAILED: CMakeFiles/cmTC_64b0c.dir/src.cxx.o 
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DHAVE_GCC_INLINE_ASM_AVX  -Wno-switch -Wno-tautological-compare -Wno-deprecated-register  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk -mmacosx-version-min=12.5 -fcolor-diagnostics -MD -MT CMakeFiles/cmTC_64b0c.dir/src.cxx.o -MF CMakeFiles/cmTC_64b0c.dir/src.cxx.o.d -o CMakeFiles/cmTC_64b0c.dir/src.cxx.o -c /Users/mitty/Documents/GitHub/pbrt-v3-coursework/cmake-build-debug/CMakeFiles/CMakeTmp/src.cxx
+/Users/mitty/Documents/GitHub/pbrt-v3-coursework/cmake-build-debug/CMakeFiles/CMakeTmp/src.cxx:13:5: error: No GCC style inline asm supported for AVX instructions
+                 #error No GCC style inline asm supported for AVX instructions
+                  ^
+1 error generated.
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+
+	int main()
+	{
+	 #if defined(__GNUC__) && defined(__SSE2__)
+		 int n   = 0;
+		 int eax = 0;
+		 int edx = 0;
+		 __asm__(
+			 "xgetbv     ;"
+			 "vzeroupper  "
+			 : "=a"(eax), "=d"(edx) : "c"(n) : );
+	 #else
+		 #error No GCC style inline asm supported for AVX instructions
+	 #endif
+	}
+	
+Determining if the include file syscall.h exists failed with the following output:
+Change Dir: /Users/mitty/Documents/GitHub/pbrt-v3-coursework/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_3ee2c && [1/2] Building C object CMakeFiles/cmTC_3ee2c.dir/CheckIncludeFile.c.o
+FAILED: CMakeFiles/cmTC_3ee2c.dir/CheckIncludeFile.c.o 
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk -mmacosx-version-min=12.5 -fcolor-diagnostics -MD -MT CMakeFiles/cmTC_3ee2c.dir/CheckIncludeFile.c.o -MF CMakeFiles/cmTC_3ee2c.dir/CheckIncludeFile.c.o.d -o CMakeFiles/cmTC_3ee2c.dir/CheckIncludeFile.c.o -c /Users/mitty/Documents/GitHub/pbrt-v3-coursework/cmake-build-debug/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/Users/mitty/Documents/GitHub/pbrt-v3-coursework/cmake-build-debug/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: fatal error: 'syscall.h' file not found
+#include <syscall.h>
+         ^~~~~~~~~~~
+1 error generated.
+ninja: build stopped: subcommand failed.
+
+
+
+Determining if the include file ucontext.h exists failed with the following output:
+Change Dir: /Users/mitty/Documents/GitHub/pbrt-v3-coursework/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_90c65 && [1/2] Building C object CMakeFiles/cmTC_90c65.dir/CheckIncludeFile.c.o
+FAILED: CMakeFiles/cmTC_90c65.dir/CheckIncludeFile.c.o 
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk -mmacosx-version-min=12.5 -fcolor-diagnostics -MD -MT CMakeFiles/cmTC_90c65.dir/CheckIncludeFile.c.o -MF CMakeFiles/cmTC_90c65.dir/CheckIncludeFile.c.o.d -o CMakeFiles/cmTC_90c65.dir/CheckIncludeFile.c.o -c /Users/mitty/Documents/GitHub/pbrt-v3-coursework/cmake-build-debug/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+In file included from /Users/mitty/Documents/GitHub/pbrt-v3-coursework/cmake-build-debug/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk/usr/include/ucontext.h:51:2: error: The deprecated ucontext routines require _XOPEN_SOURCE to be defined
+#error The deprecated ucontext routines require _XOPEN_SOURCE to be defined
+ ^
+1 error generated.
+ninja: build stopped: subcommand failed.
+
+
+
+Determining if the include file ext/slist exists failed with the following output:
+Change Dir: /Users/mitty/Documents/GitHub/pbrt-v3-coursework/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_05f72 && [1/2] Building CXX object CMakeFiles/cmTC_05f72.dir/CheckIncludeFile.cxx.o
+FAILED: CMakeFiles/cmTC_05f72.dir/CheckIncludeFile.cxx.o 
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk -mmacosx-version-min=12.5 -fcolor-diagnostics -MD -MT CMakeFiles/cmTC_05f72.dir/CheckIncludeFile.cxx.o -MF CMakeFiles/cmTC_05f72.dir/CheckIncludeFile.cxx.o.d -o CMakeFiles/cmTC_05f72.dir/CheckIncludeFile.cxx.o -c /Users/mitty/Documents/GitHub/pbrt-v3-coursework/cmake-build-debug/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+/Users/mitty/Documents/GitHub/pbrt-v3-coursework/cmake-build-debug/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx:1:10: fatal error: 'ext/slist' file not found
+#include <ext/slist>
+         ^~~~~~~~~~~
+1 error generated.
+ninja: build stopped: subcommand failed.
+
+
+
+Determining if the include file tr1/unordered_map exists failed with the following output:
+Change Dir: /Users/mitty/Documents/GitHub/pbrt-v3-coursework/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_0e3d0 && [1/2] Building CXX object CMakeFiles/cmTC_0e3d0.dir/CheckIncludeFile.cxx.o
+FAILED: CMakeFiles/cmTC_0e3d0.dir/CheckIncludeFile.cxx.o 
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk -mmacosx-version-min=12.5 -fcolor-diagnostics -MD -MT CMakeFiles/cmTC_0e3d0.dir/CheckIncludeFile.cxx.o -MF CMakeFiles/cmTC_0e3d0.dir/CheckIncludeFile.cxx.o.d -o CMakeFiles/cmTC_0e3d0.dir/CheckIncludeFile.cxx.o -c /Users/mitty/Documents/GitHub/pbrt-v3-coursework/cmake-build-debug/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+/Users/mitty/Documents/GitHub/pbrt-v3-coursework/cmake-build-debug/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx:1:10: fatal error: 'tr1/unordered_map' file not found
+#include <tr1/unordered_map>
+         ^~~~~~~~~~~~~~~~~~~
+1 error generated.
+ninja: build stopped: subcommand failed.
+
+
+
+Determining if the include file tr1/unordered_set exists failed with the following output:
+Change Dir: /Users/mitty/Documents/GitHub/pbrt-v3-coursework/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_136c2 && [1/2] Building CXX object CMakeFiles/cmTC_136c2.dir/CheckIncludeFile.cxx.o
+FAILED: CMakeFiles/cmTC_136c2.dir/CheckIncludeFile.cxx.o 
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk -mmacosx-version-min=12.5 -fcolor-diagnostics -MD -MT CMakeFiles/cmTC_136c2.dir/CheckIncludeFile.cxx.o -MF CMakeFiles/cmTC_136c2.dir/CheckIncludeFile.cxx.o.d -o CMakeFiles/cmTC_136c2.dir/CheckIncludeFile.cxx.o -c /Users/mitty/Documents/GitHub/pbrt-v3-coursework/cmake-build-debug/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+/Users/mitty/Documents/GitHub/pbrt-v3-coursework/cmake-build-debug/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx:1:10: fatal error: 'tr1/unordered_set' file not found
+#include <tr1/unordered_set>
+         ^~~~~~~~~~~~~~~~~~~
+1 error generated.
+ninja: build stopped: subcommand failed.
+
+
+
+Determining size of unsigned __int16 failed with the following output:
+Change Dir: /Users/mitty/Documents/GitHub/pbrt-v3-coursework/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_47543 && [1/2] Building C object CMakeFiles/cmTC_47543.dir/HAVE___UINT16.c.o
+FAILED: CMakeFiles/cmTC_47543.dir/HAVE___UINT16.c.o 
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk -mmacosx-version-min=12.5 -fcolor-diagnostics -MD -MT CMakeFiles/cmTC_47543.dir/HAVE___UINT16.c.o -MF CMakeFiles/cmTC_47543.dir/HAVE___UINT16.c.o.d -o CMakeFiles/cmTC_47543.dir/HAVE___UINT16.c.o -c /Users/mitty/Documents/GitHub/pbrt-v3-coursework/cmake-build-debug/CMakeFiles/CheckTypeSize/HAVE___UINT16.c
+/Users/mitty/Documents/GitHub/pbrt-v3-coursework/cmake-build-debug/CMakeFiles/CheckTypeSize/HAVE___UINT16.c:29:12: error: expected ')'
+  ('0' + ((SIZE / 10000)%10)),
+           ^
+/Users/mitty/Documents/GitHub/pbrt-v3-coursework/cmake-build-debug/CMakeFiles/CheckTypeSize/HAVE___UINT16.c:27:31: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(unsigned __int16))
+                              ^
+/Users/mitty/Documents/GitHub/pbrt-v3-coursework/cmake-build-debug/CMakeFiles/CheckTypeSize/HAVE___UINT16.c:29:12: note: to match this '('
+/Users/mitty/Documents/GitHub/pbrt-v3-coursework/cmake-build-debug/CMakeFiles/CheckTypeSize/HAVE___UINT16.c:27:21: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(unsigned __int16))
+                    ^
+/Users/mitty/Documents/GitHub/pbrt-v3-coursework/cmake-build-debug/CMakeFiles/CheckTypeSize/HAVE___UINT16.c:30:12: error: expected ')'
+  ('0' + ((SIZE / 1000)%10)),
+           ^
+/Users/mitty/Documents/GitHub/pbrt-v3-coursework/cmake-build-debug/CMakeFiles/CheckTypeSize/HAVE___UINT16.c:27:31: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(unsigned __int16))
+                              ^
+/Users/mitty/Documents/GitHub/pbrt-v3-coursework/cmake-build-debug/CMakeFiles/CheckTypeSize/HAVE___UINT16.c:30:12: note: to match this '('
+/Users/mitty/Documents/GitHub/pbrt-v3-coursework/cmake-build-debug/CMakeFiles/CheckTypeSize/HAVE___UINT16.c:27:21: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(unsigned __int16))
+                    ^
+/Users/mitty/Documents/GitHub/pbrt-v3-coursework/cmake-build-debug/CMakeFiles/CheckTypeSize/HAVE___UINT16.c:31:12: error: expected ')'
+  ('0' + ((SIZE / 100)%10)),
+           ^
+/Users/mitty/Documents/GitHub/pbrt-v3-coursework/cmake-build-debug/CMakeFiles/CheckTypeSize/HAVE___UINT16.c:27:31: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(unsigned __int16))
+                              ^
+/Users/mitty/Documents/GitHub/pbrt-v3-coursework/cmake-build-debug/CMakeFiles/CheckTypeSize/HAVE___UINT16.c:31:12: note: to match this '('
+/Users/mitty/Documents/GitHub/pbrt-v3-coursework/cmake-build-debug/CMakeFiles/CheckTypeSize/HAVE___UINT16.c:27:21: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(unsigned __int16))
+                    ^
+/Users/mitty/Documents/GitHub/pbrt-v3-coursework/cmake-build-debug/CMakeFiles/CheckTypeSize/HAVE___UINT16.c:32:12: error: expected ')'
+  ('0' + ((SIZE / 10)%10)),
+           ^
+/Users/mitty/Documents/GitHub/pbrt-v3-coursework/cmake-build-debug/CMakeFiles/CheckTypeSize/HAVE___UINT16.c:27:31: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(unsigned __int16))
+                              ^
+/Users/mitty/Documents/GitHub/pbrt-v3-coursework/cmake-build-debug/CMakeFiles/CheckTypeSize/HAVE___UINT16.c:32:12: note: to match this '('
+/Users/mitty/Documents/GitHub/pbrt-v3-coursework/cmake-build-debug/CMakeFiles/CheckTypeSize/HAVE___UINT16.c:27:21: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(unsigned __int16))
+                    ^
+/Users/mitty/Documents/GitHub/pbrt-v3-coursework/cmake-build-debug/CMakeFiles/CheckTypeSize/HAVE___UINT16.c:33:12: error: expected ')'
+  ('0' +  (SIZE    % 10)),
+           ^
+/Users/mitty/Documents/GitHub/pbrt-v3-coursework/cmake-build-debug/CMakeFiles/CheckTypeSize/HAVE___UINT16.c:27:31: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(unsigned __int16))
+                              ^
+/Users/mitty/Documents/GitHub/pbrt-v3-coursework/cmake-build-debug/CMakeFiles/CheckTypeSize/HAVE___UINT16.c:33:12: note: to match this '('
+/Users/mitty/Documents/GitHub/pbrt-v3-coursework/cmake-build-debug/CMakeFiles/CheckTypeSize/HAVE___UINT16.c:27:21: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(unsigned __int16))
+                    ^
+5 errors generated.
+ninja: build stopped: subcommand failed.
+
+
+/Users/mitty/Documents/GitHub/pbrt-v3-coursework/cmake-build-debug/CMakeFiles/CheckTypeSize/HAVE___UINT16.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__PPC64__)
+# define KEY '_','_','P','P','C','6','4','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#elif defined(__PPC__)
+# define KEY '_','_','P','P','C','_','_'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__aarch64__)
+# define KEY '_','_','a','a','r','c','h','6','4','_','_'
+#elif defined(__ARM_ARCH_7A__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','A','_','_'
+#elif defined(__ARM_ARCH_7S__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','S','_','_'
+#endif
+
+#define SIZE (sizeof(unsigned __int16))
+static char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining if the function get_static_proc_name exists in the unwind failed with the following output:
+Change Dir: /Users/mitty/Documents/GitHub/pbrt-v3-coursework/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_94747 && [1/2] Building C object CMakeFiles/cmTC_94747.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_94747
+FAILED: cmTC_94747 
+: && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -DCHECK_FUNCTION_EXISTS=get_static_proc_name -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk -mmacosx-version-min=12.5 -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/cmTC_94747.dir/CheckFunctionExists.c.o -o cmTC_94747  -lunwind && :
+ld: library not found for -lunwind
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+ninja: build stopped: subcommand failed.
+
+
+
+Performing C SOURCE FILE Test HAVE___DECLSPEC failed with the following output:
+Change Dir: /Users/mitty/Documents/GitHub/pbrt-v3-coursework/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_dc5d4 && [1/2] Building C object CMakeFiles/cmTC_dc5d4.dir/src.c.o
+FAILED: CMakeFiles/cmTC_dc5d4.dir/src.c.o 
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -DHAVE___DECLSPEC  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk -mmacosx-version-min=12.5 -fcolor-diagnostics -MD -MT CMakeFiles/cmTC_dc5d4.dir/src.c.o -MF CMakeFiles/cmTC_dc5d4.dir/src.c.o.d -o CMakeFiles/cmTC_dc5d4.dir/src.c.o -c /Users/mitty/Documents/GitHub/pbrt-v3-coursework/cmake-build-debug/CMakeFiles/CMakeTmp/src.c
+/Users/mitty/Documents/GitHub/pbrt-v3-coursework/cmake-build-debug/CMakeFiles/CMakeTmp/src.c:2:1: error: '__declspec' attributes are not enabled; use '-fdeclspec' or '-fms-extensions' to enable support for __declspec attributes
+__declspec(selectany) int a;
+^
+1 error generated.
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+
+__declspec(selectany) int a;
+int main(void) { return 0; }
+
+Performing C++ SOURCE FILE Test STL_NO_NAMESPACE failed with the following output:
+Change Dir: /Users/mitty/Documents/GitHub/pbrt-v3-coursework/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_b2888 && [1/2] Building CXX object CMakeFiles/cmTC_b2888.dir/src.cxx.o
+FAILED: CMakeFiles/cmTC_b2888.dir/src.cxx.o 
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DSTL_NO_NAMESPACE  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk -mmacosx-version-min=12.5 -fcolor-diagnostics -MD -MT CMakeFiles/cmTC_b2888.dir/src.cxx.o -MF CMakeFiles/cmTC_b2888.dir/src.cxx.o.d -o CMakeFiles/cmTC_b2888.dir/src.cxx.o -c /Users/mitty/Documents/GitHub/pbrt-v3-coursework/cmake-build-debug/CMakeFiles/CMakeTmp/src.cxx
+/Users/mitty/Documents/GitHub/pbrt-v3-coursework/cmake-build-debug/CMakeFiles/CMakeTmp/src.cxx:3:1: error: no template named 'vector'; did you mean 'std::vector'?
+vector<int> t; int main() { }
+^~~~~~
+std::vector
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk/usr/include/c++/v1/vector:493:28: note: 'std::vector' declared here
+class _LIBCPP_TEMPLATE_VIS vector
+                           ^
+1 error generated.
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+
+#include <vector>
+vector<int> t; int main() { }
+

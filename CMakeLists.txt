@@ -447,7 +447,7 @@ SET ( PBRT_CORE_HEADERS
   src/core/stringprint.h
   src/core/texture.h
   src/core/transform.h
-  )
+        src/shapes/displacementsphere.cpp src/shapes/displacementsphere.h src/shapes/ppm.cpp src/shapes/ppm.cpp)
 
 FILE ( GLOB PBRT_SOURCE
   src/ext/*
